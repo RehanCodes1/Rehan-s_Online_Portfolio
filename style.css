@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 85%;
+    height: 15%;
+    margin:auto;
+    display:flex;
+  }
+  .content{
+    color:aquamarine;
+    position:absolute;
+    top: 10%;
+    right: 35%;
+    font-size: 50;
+    font-style: oblique; 
+    font-weight: bolder;
+    transform: translateY(-50%)
+  }
+
+.index{
+    width:100%;
+    height:100vh;
+    background-image: url(images/index_background.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .main img{
+    width:50px;
+    animation: main 10s linear infinite;
+  }
+  .main{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 100;
+  }
+
+  @keyframes main{
+    0%{
+        transform: translateX(-110vh) translateY(15vh);
+        opacity: 1;
+    }
+    100%{
+      transform: translateX(110vh) translateY(-5vh); 
+      opacity: 1;
+    }
+}
+.main img:nth-child(1){
+  animation-delay: 0s;
+  width: 100px;
+}
+
+.Back{
+    background-image: url(images/back.png);
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 99px;
+    top: 10px;
+    left: 0px;
+    position:absolute;
+}
+
+.button-skill{
+    width: 80px;
+    height: 50px;
+    background-color: transparent;
+    color: orange;
+    border-radius: 50px;
+    border: 2px;
+    transition: background-color 2s; 
+    position: relative;
+    top: 290;
+    left: 81.2%;
+    z-index: 1;
+    font-weight: 900;
+  
+  }
+  .button-skill:hover{
+    background-color: black;
+    cursor: pointer;
+  }
+
+  .button-projects{
+    width: 80px;
+    height: 50px;
+    background-color: transparent;
+    color: orange;
+    border-radius: 50px;
+    border: 2px;
+    transition: background-color 2s; 
+    position: relative;
+    top: 290;
+    left: 43.5%;
+    z-index: 1;
+    font-weight: 900;
+  
+  }
+  .button-projects:hover{
+    background-color: black;
+    cursor: pointer;
+  }
+
+  .button-About{
+    width: 80px;
+    height: 50px;
+    background-color: transparent;
+    color: orange;
+    border-radius: 50px;
+    border: 2px;
+    transition: background-color 2s; 
+    position: relative;
+    top: 290;
+    left: 5.8%;
+    z-index: 1;
+    font-weight: 900;
+  
+  }
+  .button-About:hover{
+    background-color: black;
+    cursor: pointer;
+  }
+
+  .about{
+    width:100%;
+    height:100vh;
+    background-image: url(images/about_background.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .git{
+    background-image: url(images/github.png);
+    width: 100px;
+    height: 100px;
+    border-radius: 99px;
+    top: 450px;
+    left: 400px;
+    position:relative;
+  }
+  .git:hover{
+    background-color:white;
+    color:black;
+    opacity: 1000;
+    cursor: pointer;
+  }
+  
+  .link{
+    background-image: url(images/LinkedIn_icon_circle.png);
+    width: 100px;
+    height: 100px;
+    border-radius: 99px;
+    top: 450px;
+    left: 690px;
+    position:relative;
+  }
+  .link:hover{
+    background-color:white;
+    color:black;
+    opacity: 1000;
+    cursor: pointer;
+  }
+
+  .facebook{
+    background-image: url(images/facebook.png);
+    width: 100px;
+    height: 100px;
+    border-radius: 99px;
+    top: 450px;
+    left: 1050px;
+    position:relative;
+  }
+  .facebook:hover{
+    background-color:white;
+    color:black;
+    opacity: 1000;
+    cursor: pointer;
+  }
+
+  .projects{
+    background-image: url(images/technical_background.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overscroll-behavior-y: hidden;
+  
+  }
+
+  .button-organize{
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 2px;
+    position: relative;
+    bottom: 990px;
+    left: 375px;
+  }
+  .button-organize:hover{
+    cursor: pointer;
+  }
+  
+  .button-photoshop{
+    width: 250px;
+    height: 250px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 2px;
+    position: relative;
+    bottom: 360px;
+    left: 510px;
+    
+  }
+  .button-photoshop:hover{
+    cursor: pointer;
+    overflow-y: hidden;
+  }
+  
+  .iphone{
+    width: 600px;
+    margin: 1px auto;
+    display:block;
+    left: 200px;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 400px;
+  }
+  
+  .photoshop{
+    width: 250px;
+    margin: 1px auto;
+    display:block;
+    left: 600px;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 100px;
+  }
+
+  .mech{
+    width: 600px;
+    margin: 1px auto;
+    display:block;
+    left: 800px;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 300px;
+  }
+  
+  .skill{
+    width:100%;
+    height:100vh;
+    background-image: url(https://media1.giphy.com/media/PYjBPTCMfhzoY/giphy.gif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .logo1{
+    width: 800px;
+    margin: 1px auto;
+    display:block;
+    left: 640px;}
+
+    .car img{
+        width:50px;
+        animation: car 10s linear infinite;
+      }
+      .car{
+        width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+        bottom: 500px;
+      }
+
+      @keyframes car{
+        0%{
+            transform: scale(5) translateX(0px) translateY(0px);
+            opacity: 1;
+        } 
+        50%{
+          transform: translateX(100px) translateY(-100px);
+          opacity: 0.9;
+        }
+        70%{
+          transform: translateX(500px) translateY(-500px);
+          opacity: 1;
+        }
+        100%{
+          transform: scale(6) translateX(0px) translateY(300px);
+          opacity: 0.9;
+        }
+      }
+      
+      .car img:nth-child(1){
+      animation-delay: 0s;
+      width: 50px;
+      }
+      .car img:nth-child(2){
+      animation-delay: 1s;
+      width: 50px;
+      }
+      .car img:nth-child(3){
+      animation-delay: 2s;
+      width: 50px;
+      }
+        .car img:nth-child(4){
+        animation-delay: 3s;
+        width: 50px;
+        }
+        .car img:nth-child(5){
+        animation-delay: 4s;
+        width: 50px;
+        }
+        .car img:nth-child(6){
+          animation-delay: 5s;
+          width: 50px;
+        }
